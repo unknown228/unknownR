@@ -71,7 +71,49 @@ body {
 
 }
 .footer{
-	width: 1200px;
-	height: 98px;
 	background: #f0f0f0;
+	padding: 30px 0 45px;
+}
+.follow{
+	font: 14px, Arial;
+}
+.container{
+	max-width: 90px;
+	margin: 0 auto;
+}
+.container:after{
+	content:  '';
+	display: block;
+	clear: both;
+}
+.social{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.social li{
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.social li a{
+	height: 50px;
+	width: 50px;
+	border: 1 px solid red;
+	display: block;
+	background: url('../images/soc.png') no-repeat;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.social li .facebook{
+	width: 9px;
+}
+.social li.twitter{
+	width: 18px;
+	background-position: -26px 0;
+}
+.social li.instagram{
+	width: 15px;
+	background-position: -61px 0;
 }
